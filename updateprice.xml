@@ -1,20 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
 <install type="component" version="1.5.0">
  <name>UpdatePrice</name>
-<!-- Далее идут необязательные элементы-->
  <creationDate>24.10.2013</creationDate>
  <author>Khatsayuk Evgenii</author>
  <authorEmail>master@alltravel.org.ua</authorEmail>
  <authorUrl>http://www.alltravel.org.ua</authorUrl>
  <copyright>GNU/GPL</copyright>
  <license>Arti</license>
- <!--  Номер версии сохраняется как строковое значение в таблице компонентов -->
  <version>1.0</version>
- <!-- Описание необязательно, и по-умолчанию равно имени компонента -->
  <description>Компонент для удобного обновления цен на сайте, с использованием xml отчета из 1С</description> 
  
- <!--Копирование файлов во фронтенд -->
 <files folder="site">
   <filename>index.html</filename>
   <filename>updateprice.php</filename>
@@ -27,9 +23,7 @@
  </files>
  
  <administration>
-   <!--меню в админке -->
   <menu>Обновление цен!</menu>  
-  <!-- копирование файлов в админку -->
   <files folder="admin">
    <filename>index.html</filename>
    <filename>updateprice.php</filename>
